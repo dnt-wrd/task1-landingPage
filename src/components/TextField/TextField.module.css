@@ -1,0 +1,38 @@
+@value lavender-custom: #7E3AF2;
+
+
+.textField {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #696969;
+    position: relative;
+    width: 445px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    white-space: pre-wrap;
+
+    margin-bottom: 60px;
+}
+
+.textField::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 1vw;
+    background: lavender-custom;
+    top: -24px;
+    /*left: calc(100% + 25px);*/
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
