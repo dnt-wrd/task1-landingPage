@@ -1,0 +1,68 @@
+.layout {
+    max-width: 1280px;
+
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.textNick {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #696969;
+}
+
+
+
+.mainHeader {
+    margin-top: 192px;
+}
+
+.mb92{
+    margin-bottom: 92px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.headerContainer {
+    max-height: 768px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.headerImage {
+    /*min-height: calc(100vh - 68px);*/
+
+    /*background-image: url("./../../assets/headerBackground.svg");*/
+    /*background-size: 30%;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: bottom -5rem right -20rem;*/
+    /*overflow: hidden;*/
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    /*max-height: 689px;*/
+    /*min-width: 792px;*/
+    /*min-width: 600px;*/
+    background-image: url("./../../assets/headerBackground.svg");
+    background-position:top 75px right -50px;
+    /*right: 0px;*/
+    /*position: absolute;*/
+
+}
+
+.photoNick {
+    margin-top: 83px;
+
+}
