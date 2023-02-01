@@ -1,0 +1,34 @@
+.imageCircle {
+    background-image: url("./../../assets/circleBack.svg");
+    background-repeat: no-repeat;
+    width: 412px;
+    height: 412px;
+    position: relative;
+}
+
+.circlePhoto {
+    position: absolute;
+
+    width: 364px;
+    margin: 18px 18px;
+    top: 1vh;
+    left: 1vh;
+}
+
+.aboutInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1110px;
+}
+
+.aboutHeader {
+    margin-bottom: 80px;
+}
+
+.aboutLists {
+    display: flex;
+    flex-direction: row;
+}
+
