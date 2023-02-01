@@ -3,6 +3,7 @@ import "./App.css";
 import MainHeader from './components/MainHeader'
 import AboutMe from "./components/AboutMe";
 import ContactPage from "./components/ContactPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <MainHeader />
           <AboutMe />
           <ContactPage />
+          <Footer />
       </div>
   );
 }

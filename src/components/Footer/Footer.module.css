@@ -1,0 +1,15 @@
+.footerElement{
+    height: 81px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #696969;
+}
