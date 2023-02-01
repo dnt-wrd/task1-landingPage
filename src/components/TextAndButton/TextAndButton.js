@@ -8,7 +8,7 @@ const TextAndButton = ({textField,
                        textButton}) => {
 
     return (
-        <>
+        <div>
             <TextField
                 text = {textField}
             />
@@ -16,7 +16,9 @@ const TextAndButton = ({textField,
             <Button
                 text={textButton}
             />
-        </>
+        </div>
+
+
     )
 }
 

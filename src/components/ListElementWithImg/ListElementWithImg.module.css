@@ -1,0 +1,29 @@
+.imgList {
+    width: 60px;
+    margin-right: 16px;
+}
+
+
+.listTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.listArray {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.listElement {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+

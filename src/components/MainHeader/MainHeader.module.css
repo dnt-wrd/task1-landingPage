@@ -39,6 +39,7 @@ h1 {
     max-height: 768px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 92px;
 }
 
 

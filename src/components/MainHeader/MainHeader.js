@@ -23,9 +23,8 @@ const MainHeader = () => {
                 {/*/>*/}
                 {/*<Button />*/}
                 <TextAndButton
-                    textField='Help you to create high-quality digital
-                     products that your clients will love and let
-                            your business thrive'/>
+                    textField={'Help you to create high-quality digital \n products that your clients will love and let \n your business thrive'}/>
+
             </div>
             <div className={style.headerImage}>
                 <img src={headerPhoto} alt="Photo Nick" className={style.photoNick}/>
