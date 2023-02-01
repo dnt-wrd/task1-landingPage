@@ -48,8 +48,6 @@ code {
   align-items: center;
   color: #27272A;
   margin-bottom: 43px;
-
-
 }
 
 .mb80 {
@@ -58,4 +56,12 @@ code {
 
 li {
   list-style-type: none;
+}
+
+.mb48 {
+  margin-bottom: 48px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
 }
