@@ -4,25 +4,6 @@ import style from "./Button.module.css"
 import btnImg from "./../../assets/btnWhite.svg"
 import cn from "classnames";
 
-// const Button = (props) => {
-//     const {text} = props;
-//     console.log(text)
-//
-//     return (
-//         <button className={style.btn}>
-//             <div className={style.btnInputContainer}>
-//                 <p className={style.btnText}>
-//                     {text}
-//                 </p>
-//                 <img src={btnImg} alt="" className={style.btnImg}/>
-//             </div>
-//         </button>
-//     )
-// }
-//
-// export default Button;
-
-
 const Button = ({text = "Get in touch"}) => {
     console.log(text)
 

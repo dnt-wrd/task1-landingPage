@@ -1,6 +1,7 @@
 .imageCircle {
     background-image: url("./../../assets/circleBack.svg");
     background-repeat: no-repeat;
+
     width: 412px;
     height: 412px;
     position: relative;
@@ -20,7 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 1110px;
+    max-width: 1110px;
 }
 
 .aboutHeader {
